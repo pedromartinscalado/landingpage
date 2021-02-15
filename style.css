@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  font-family: Verdana;
+background-image: url(Images/code.jpeg);
+background-size: cover;
+color:white;
+}
+
+h1  {
+  font-size: 70px;
+  padding-top: 300px;
+  text-shadow: 2px 2px 2px gray;
+  margin-bottom: 15px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.botao{
+  text-decoration: none;
+  background-color: rgb(204,0,0);
+  color:cyan;
+  font-size:20px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+}
+
+.botao:hover {
+  background-color: rgba(204,0,0,0.7);
+}
+
+.lista {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 150px;
+}
+
+  .lista li {
+    display:inline;
+  }
+
+.lista a {
+  color:cyan;
+  font-size: 25px;
+}
